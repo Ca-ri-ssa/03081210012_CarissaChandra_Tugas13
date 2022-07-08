@@ -7,7 +7,9 @@ import model.Prisma;
 
 public class App{
     public static void main(String[] args) throws Exception{
+        Util.init();
         Util.bacaFile();
+        Util.tulisFile(null);
 
         /*String pesan = "Selamat Datang di Dunia Lingkaran Tahun ";
         int tahun = 2022;
